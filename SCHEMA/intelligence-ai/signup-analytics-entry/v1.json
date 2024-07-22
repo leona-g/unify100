@@ -1,0 +1,17 @@
+{
+ "$id": "https://schemas.unify101.com/intelligence-ai/signup-analytics-entry/
+v1.json",
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "type": "object",
+ "required": [ "timestamp", "ip", "state", "milestone", "cost" ],
+ "properties": {
+ "timestamp": { "$ref": https://schemas.unify101.com/common/timestamp/v1.json" },
+ "ip": { "$ref": "https://schemas.unify101.com/common/ipv4/v1.json" },
+ "email": { "$ref": "https://schemas.unify101.com/common/email/v1.json" },
+ "state": { "$ref": "https://schemas.unify101.com/common/us-state/v1.json" },
+ "milestone": {
+ "$ref": "https://schemas.unify101.com/intelligence-ai/website-milestone/
+v1.json" },
+ "cost": { "$ref": "https://schemas.unify101.com/common/price/v1.json" }
+ }
+}
