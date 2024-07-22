@@ -1,0 +1,6 @@
+{
+ "$id": "https://schemas.unify101.com/common/ipv4/v1.json",
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "type": "string",
+ "pattern": "^((25[0-5]|(2[0-4]|1\\d|[1-9]|)\\d)\\.?\\b){4}$"
+}
