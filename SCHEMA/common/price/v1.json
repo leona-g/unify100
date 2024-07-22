@@ -1,0 +1,12 @@
+{
+ "$id": "https://schemas.unify101.com/common/price/v1.json",
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "type": "object",
+ "required": [ "amount", "currency" ],
+ "properties": {
+ "amount": { "type": "number", "minimum": 0 },
+ "currency": {
+ "$ref": "https://schemas.unify101.com/common/currency/v1.json"
+ }
+ }
+}
