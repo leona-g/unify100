@@ -1,0 +1,6 @@
+{
+ "$id": "https://schemas.unify101.com/common/email/v1.json",
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "type": "string",
+ "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$"
+}
