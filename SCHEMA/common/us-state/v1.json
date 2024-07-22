@@ -1,0 +1,11 @@
+{
+ "$id": "https://schemas.unify101.com/common/us-state/v1.json",
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "enum": [
+ "AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA",
+ "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD",
+ "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ",
+ "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC",
+ "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"
+ ]
+}
